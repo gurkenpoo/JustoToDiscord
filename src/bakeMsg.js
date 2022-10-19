@@ -21,7 +21,7 @@ export function messageJusto(o) {
   const details = productos.join(`\n> `);
 
   const msg = `
-  
+   #### EDIT YOUR MSG ####
   **---------------------------------------**
    orderID: **${datos.fullCode}**
   \n  |--->*Client data*<---|
