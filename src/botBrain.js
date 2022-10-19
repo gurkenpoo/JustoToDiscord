@@ -2,7 +2,7 @@ import { Client, GatewayIntentBits } from "discord.js";
 
 import { TOKEN } from "./TOKEN.js"; //token in ./token.js
 
-//vvvv permissions vvvv
+//vvv permissions vvv
 
 const client = new Client({
   intents: [
