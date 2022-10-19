@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 app.post("/yourEndPoint", (req, res) => {
   const { msg } = messageJusto(req.body);
-  setTimeout(() => discordSend(msg), 1000);
+  setTimeout(() => discordSend(msg), 1500);
   res.status(200).end();
 });
 
