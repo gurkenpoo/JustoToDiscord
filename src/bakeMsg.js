@@ -8,9 +8,9 @@ export function messageJusto(o) {
   for (let i = 0; i < datos.items.length; i++) {
     const item = datos.items[i];
     const producto = item.product;
-    const precioU = item.productPrice;
+    const priceProduct = item.productPrice;
     const amount = item.amount;
-    price.push(`$${precioU}`);
+    price.push(`$${priceProduct}`);
     productos.push(
       `${producto.name}, ${amount} ${item.amount === 1 ? "unit" : "units"} x $${
         precioU * amount
