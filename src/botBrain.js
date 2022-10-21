@@ -25,6 +25,6 @@ client.login(TOKEN);
 
 export function discordSend(msg) {
   console.log("sendToDiscord");
-  const channel = client.channels.cache.get("965961185872711791");
+  const channel = client.channels.cache.get("###YOURCHANNELID###");
   channel.send(msg);
 }
