@@ -1,199 +1,137 @@
 {
-    "data": {
-      "order": {
-        "_id": "",
-        "orderStatus": "",
-        "isScheduled": false,
-        "websiteId": "",
-        "code": "",
-        "createdAt": "",
-        "fullCode": "",
-        "userId": "",
-        "address": {
-          "_id": "",
-          "placeId": "",
-          "address": "",
-          "addressLine2": "41",
-          "addressSecondary": "Ñuñoa, Chile",
-          "location": {
-            "lat": -33.441456,
-            "lng": -70.57937199999999
-          }
-        },
-        "directions": {
-          "duration": 17,
-          "distance": 3678
-        },
-        "menuId": "",
-        "deliveryType": "go",
-        "deliverAt": "2022-10-05T00:07:08.151Z",
-        "timeText": "21:27 - 22:12",
-        "paymentType": "",
-        "otherPaymentType": null,
-        "tipAmount": 2920,
-        "amountToPay": 20010,
-        "deliveryFee": 2490,
-        "itemsPrice": 14600,
-        "totalPrice": 17090,
-        "baseItemsPrice": 17500,
-        "baseTotalPrice": 19990,
-        "amountFinancedByJusto": 0,
-        "expectedPreparationDuration": 30,
-        "deliveryDuration": 30,
-        "cashAmount": null,
-        "nationalId": null,
-        "cardId": null,
-        "channel": "orion-delivery",
-        "source": "justoApp",
-        "buyerName": "PRUEBA00",
+  "data": {
+    "order": {
+      "_id": "testtesttest",
+      "orderStatus": "pending",
+      "isScheduled": false,
+      "websiteId": "testtesttest",
+      "code": "12097452",
+      "createdAt": "2022-10-04T15:48:11.194Z",
+      "fullCode": "#testtesttest-02",
+      "userId": "testtesttest",
+      "address": null,
+      "directions": null,
+      "menuId": "testtesttest",
+      "deliveryType": "go",
+      "deliverAt": "2022-10-04T15:58:10.935Z",
+      "timeText": "12:58",
+      "paymentType": "other",
+      "otherPaymentType": null,
+      "tipAmount": 0,
+      "amountToPay": 0,
+      "deliveryFee": 0,
+      "itemsPrice": 0,
+      "totalPrice": 0,
+      "baseItemsPrice": 15500,
+      "baseTotalPrice": 15500,
+      "amountFinancedByJusto": 0,
+      "expectedPreparationDuration": 10,
+      "deliveryDuration": null,
+      "cashAmount": null,
+      "nationalId": null,
+      "cardId": null,
+      "channel": "web-go",
+      "source": "web",
+      "buyerName": "Bastian Poo",
+      "phone": "+56982540472",
+      "email": "bastian@testardos.pizza",
+      "couponId": "testtesttest",
+      "couponName": "testtesttest",
+      "couponCode": "testtesttest",
+      "couponDiscount": 12400,
+      "store": {
+        "_id": "testtesttest",
+        "websiteId": "testtesttest",
+        "name": "testtesttest",
+        "acceptDelivery": true,
+        "acceptServe": false,
+        "acceptGo": true,
+        "currentPreparationDuration": 10,
+        "currentDeliveryDuration": 0,
         "phone": "",
-        "email": "",
-        "couponId": null,
-        "couponName": null,
-        "couponDiscount": null,
-        "couponCode": "",
-        "store": {
-          "_id": "",
-          "websiteId": "",
-          "name": "Puerto montt",
-          "acceptDelivery": true,
-          "acceptServe": false,
-          "acceptGo": true,
-          "currentPreparationDuration": 30,
-          "currentDeliveryDuration": 0,
-          "phone": "",
-          "address": {
-            "placeId": "",
-            "address": "Santiago",
-            "addressLine2": "Pizza street",
-            "addressSecondary": "chile",
-            "location": {
-              "lat": -33.4402888,
-              "lng": -70.6124679
+        "address": {
+          "placeId": "testtesttest",
+          "address": "testtesttest",
+          "addressLine2": "testtesttest",
+          "addressSecondary": "Providencia,Providencia,Chile",
+          "location": {
+            "lat": -33.4402888,
+            "lng": -70.6124679
+          }
+        },
+        "externalId": null,
+        "schedule": {
+          "closedDays": [
+            "2022-05-01T04:00:00.000Z",
+            "2022-09-18T03:00:00.000Z",
+            "2022-09-19T03:00:00.000Z"
+          ],
+          "availableAtPeriods": true,
+          "openPeriods": [
+            {
+              "daysOfWeek": [
+                7,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "fromMinute": 750,
+              "toMinute": 1320
             }
+          ],
+          "specialPeriods": [
+            {
+              "days": [
+                "2022-09-11T04:00:00.000Z"
+              ],
+              "fromMinute": 750,
+              "toMinute": 1050
+            }
+          ],
+          "timezone": "America/Santiago",
+          "availableStateValidUntil": "2022-10-04T16:00:46.231Z",
+          "isAvailableNow": true,
+          "closedUntilDate": "2022-10-02T11:46:00.000Z",
+          "updatedCacheAt": "2022-10-04T15:30:46.231Z"
+        }
+      },
+      "items": [
+        {
+          "product": {
+            "_id": "testtesttest",
+            "name": "testtesttest",
+            "externalId": null
           },
-          "externalId": null,
-          "schedule": {
-            "closedDays": [
-              "2022-05-01T04:00:00.000Z",
-              "2022-09-18T03:00:00.000Z",
-              "2022-09-19T03:00:00.000Z"
-            ],
-            "availableAtPeriods": true,
-            "openPeriods": [
-              {
-                "daysOfWeek": [
-                  7,
-                  2,
-                  3,
-                  4,
-                  5,
-                  6
-                ],
-                "fromMinute": 750,
-                "toMinute": 1320
-              }
-            ],
-            "specialPeriods": [
-              {
-                "days": [
-                  "2022-09-11T04:00:00.000Z"
-                ],
-                "fromMinute": 750,
-                "toMinute": 1050
-              }
-            ],
-            "timezone": "America/Santiago",
-            "availableStateValidUntil": "2022-10-04T23:41:04.454Z",
-            "isAvailableNow": true,
-            "closedUntilDate": "2022-10-02T11:46:00.000Z",
-            "updatedCacheAt": "2022-10-04T23:11:04.454Z"
-          }
-        },
-        "items": [
-          {
-            "product": {
-              "_id": "",
-              "name": "Pizza1",
-              "externalId": null
-            },
-            "unitPrice": 11600,
-            "baseUnitPrice": 14500,
-            "productPrice": 11600,
-            "baseProductPrice": 14500,
-            "amount": 1,
-            "comment": null,
-            "modifiers": [],
-            "options": []
-          },
-          {
-            "product": {
-              "_id": "",
-              "name": "Coca Cola Zero",
-              "externalId": null
-            },
-            "unitPrice": 3000,
-            "baseUnitPrice": 3000,
-            "productPrice": 3000,
-            "baseProductPrice": 3000,
-            "amount": 1,
-            "comment": null,
-            "modifiers": [],
-            "options": []
-          }
-        ],
-        "transaction": {
-          "_id": "",
-          "totalPrice": 20010,
-          "paymentType": "",
-          "cardType": "",
-          "cardLast4": "6985",
-          "status": "paid",
-          "fee": 702.4549999999999,
-          "feeWithoutTax": 590.295
-        },
-        "devolutions": null,
-        "deliveries": [
-          {
-            "_id": "",
-            "price": 268,
-            "status": "scheduled",
-            "isCash": false,
-            "fromLocation": {
-              "lat": 1,
-              "lng": 1
-            },
-            "toLocation": {
-              "lat": 1,
-              "lng": 1
-            },
-            "driverPassword": "",
-            "createdAt": "",
-            "forDate": "",
-            "driverInformation": null,
-            "trackingURL": "",
-            "orderId": ""
-          }
-        ],
-        "charges": {
-          "paymentFee": {
-            "amount": 590,
-            "totalAmount": 702.1,
-            "tax": 112.1,
-            "count": 1
-          }
-        },
-        "orderParams": {},
-        "billing": {
-          "type": null
-        },
-        "clonedOrder": null,
-        "parentOrder": null,
-        "hasManagedDelivery": true,
-        "loyaltyTransaction": null,
-        "cancellationInfo": {}
-      }
-    },
-    "date": "2022-10-04T23:34:21.424Z",
-    "type": "newOrder"
-  }
+          "unitPrice": 12400,
+          "baseUnitPrice": 15500,
+          "productPrice": 12400,
+          "baseProductPrice": 15500,
+          "amount": 1,
+          "comment": "testtesttest",
+          "modifiers": [],
+          "options": []
+        }
+      ],
+      "transaction": null,
+      "devolutions": null,
+      "deliveries": [],
+      "charges": {},
+      "orderParams": {
+        "RUT": "testtesttest"
+      },
+      "billing": {
+        "type": null
+      },
+      "clonedOrder": null,
+      "parentOrder": null,
+      "hasManagedDelivery": false,
+      "loyaltyTransaction": null,
+      "cancellationInfo": {},
+      "gift": null
+    }
+  },
+  "date": "2022-10-04T15:48:15.182Z",
+  "type": "newOrder"
+}
