@@ -13,7 +13,7 @@ export function messageJusto(o) {
     price.push(`$${priceProduct}`);
     productos.push(
       `${producto.name}, ${amount} ${item.amount === 1 ? "unit" : "units"} x $${
-        precioU * amount
+        priceProduct * amount
       };`
     );
   }
