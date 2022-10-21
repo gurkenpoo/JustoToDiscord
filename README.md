@@ -12,7 +12,18 @@ With Nodejs using Express and Discordjs we created a webhook app that holds the 
 
 - First of all, we need to clone this repo using
 
-  `git clone https://github.com/gurkenpoo/JustoToDiscord.git `
+  ```
+  git clone https://github.com/gurkenpoo/JustoToDiscord.git
+  ``` 
+  
+* Then, lets do some npm i
+  ``` 
+  npm i express
+  npm i node
+  npm i discord.js
+  npm i body-parser
+  npm i nodemon
+  ``` 
 
 - Second one, is creating our Discord aplication to get a userBot, go a head to [this link](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot), then follow [this steps](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links) to add the bot into the server you want the integration
 
@@ -22,18 +33,55 @@ With Nodejs using Express and Discordjs we created a webhook app that holds the 
   `/src`
   called
   `TOKEN.js`
+  
   ![tokenbot](https://user-images.githubusercontent.com/90875843/197061850-ce0ca416-d1a2-4b76-96a3-5f827f6f0ed1.png)
   <sub>Just press "reset"</sub>
+  
+- And paste it here:
 
-### Running our App in localhost (to test it)
+  ![tokenbot](https://user-images.githubusercontent.com/90875843/197087170-58fe01f9-cdc7-49c1-a576-e04687e72481.png)
+
+  
+
+## Running our App in localhost (to test it)
 
 - Go ahead to `Webhook.js` and set up your Endpoint
-  code blocks for commands
+  
+  ![imagen](https://user-images.githubusercontent.com/90875843/197087605-9d1e7796-1f7f-4e0d-bdbd-8f7480a87cca.png)
+  
+- Add the ChannelID that you want to integrate here in `botBrain.js`:
+
+  ![imagen](https://user-images.githubusercontent.com/90875843/197088461-72dc059a-6fca-43cb-ba43-6b586b45b3a0.png)
+
+
+
+  
+> **Now we are ready to go**
+
+### TEST
+
+  - Lets use nodemon in this instance, go ahead and run:
+  ```
+  nodemon src/webhook.js 
+  ```
+> If its all okay, you should see in the terminal `yourBot#0000 online!`, if you encounter an error, let me know in discord or here (im new)
+
+  - Well, now with our bot Online, let's slap it with a `curl`
+
+  ```
+  curl -H "Content-Type: application/json" -d @src/exampleData.json localhost:3000/yourEndPoint
+  
+  ```
+> If its all okay, look in your discord Channel...is should look like this: 
+
+![imagen](https://user-images.githubusercontent.com/90875843/197089047-5e491753-5676-4d38-83f5-7a0ca175fef9.png)
+
 
 ## Help
 
-Any advise for common problems or issues.
-command to run if program contains helper info
+> If the imports and modules spam you an error, try to add `"type": "module"` in the `package.json`
+
+> if it throws other and more errors, send me a md in discord || contact me to help you or help me
 
 ## Authors
 
