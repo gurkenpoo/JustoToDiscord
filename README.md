@@ -56,45 +56,44 @@ With Nodejs using Express and Discordjs we created a webhook app that holds the 
 
 
   
-> **Now we are ready to go**
+  > **Now we are ready to go**
 
 ### TEST
 
   - Lets use nodemon in this instance, go ahead and run:
-  ```
-  nodemon src/webhook.js 
-  ```
-> If its all okay, you should see in the terminal `yourBot#0000 online!`, if you encounter an error, let me know in discord or here (im new)
+      ```
+      nodemon src/webhook.js 
+      ```
+      > If its all okay, you should see in the terminal `yourBot#0000 online!`, if you encounter an error, let me know in discord or here (im new)
 
   - Well, now with our bot Online, let's slap it with a `curl`
 
-  ```
-  curl -H "Content-Type: application/json" -d @src/exampleData.json localhost:3000/yourEndPoint
+     ```
+        curl -H "Content-Type: application/json" -d @src/exampleData.json localhost:3000/yourEndPoint
   
-  ```
-> If its all okay, look in your discord Channel...is should look like this: 
+      ```
+      > If its all okay, look in your discord Channel...is should look like this: 
 
-![imagen](https://user-images.githubusercontent.com/90875843/197089047-5e491753-5676-4d38-83f5-7a0ca175fef9.png)
+      ![imagen](https://user-images.githubusercontent.com/90875843/197089047-5e491753-5676-4d38-83f5-7a0ca175fef9.png)
 
 
 ## Help
-
-> If the imports and modules spam you an error, try to add `"type": "module"` in the `package.json`
-
-> if it throws other and more errors, send me a md in discord || contact me to help you or help me
+   > If the imports and modules spam you an error, try to add `"type": "module"` in the `package.json`
+           
+   > if it throws other and more errors, send me a md in discord || contact me to help you or help me
 
 ## Authors
 
 Contributors names and contact info
 
-- Bastian Poo A.K.A "gurkenpoo" | [@gurkenpoo](https://github.com/gurkenpoo) | Discord ID = _gurkenpoo#1786_
+  - Bastian Poo A.K.A "gurkenpoo" | [@gurkenpoo](https://github.com/gurkenpoo) | Discord ID = gurkenpoo#1786
+  
+  - Hans Poo | [@HansPoo](https://github.com/hanspoo)
 
-- Hans Poo | [@HansPoo](https://github.com/hanspoo)
+  ## Version History
 
-## Version History
-
-- 0.0.1
-  - Initial Release
+      - 0.0.1
+       - Initial Release
 
 ## PS
 
